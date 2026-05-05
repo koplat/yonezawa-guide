@@ -1,0 +1,1258 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>羽前米沢 米沢織 多言語ガイド｜Yonezawa-ori Multilingual Guide</title>
+<meta name="description" content="米沢織を観光客・通訳者向けに3言語（日本語/English/繁體中文）で解説する多言語ガイド。歴史・つくりかた・Q&A・紅花染とNHK World番組リンク・体験/関連リンクまで、現地ガイドのために整理しました。">
+<meta name="author" content="羽前米沢 多言語ガイドプロジェクト">
+<meta name="theme-color" content="#a92626">
+<!-- Open Graph / Facebook / LINE -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="羽前米沢 多言語ガイド">
+<meta property="og:title" content="米沢織 多言語ガイド｜Yonezawa-ori Multilingual Guide">
+<meta property="og:description" content="200年以上の歴史を持つ米沢織を、観光客向け・通訳者向けの2モード × 日本語/English/繁體中文の3言語で解説。紅花染とNHK World番組リンクも収録。">
+<meta property="og:url" content="https://koplat.github.io/yonezawa-guide/yonezawa-ori/">
+<meta property="og:image" content="https://koplat.github.io/yonezawa-guide/yonezawa-ori/og-image.png">
+<meta property="og:image:secure_url" content="https://koplat.github.io/yonezawa-guide/yonezawa-ori/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:alt" content="羽前米沢 米沢織 多言語ガイド">
+<meta property="og:locale" content="ja_JP">
+<meta property="og:locale:alternate" content="en_US">
+<meta property="og:locale:alternate" content="zh_TW">
+<!-- Twitter / X -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="米沢織 多言語ガイド｜Yonezawa-ori Multilingual Guide">
+<meta name="twitter:description" content="200年以上の歴史を持つ米沢織を3言語×2モードで解説。紅花染とNHK World番組も収録。">
+<meta name="twitter:image" content="https://koplat.github.io/yonezawa-guide/yonezawa-ori/og-image.png">
+<style>
+:root{
+  --beni:#a92626;          /* 紅花染 */
+  --beni-dark:#7a1a1a;
+  --beni-light:#d04a4a;
+  --gold:#c9a35a;
+  --gold-dark:#9c7c3a;
+  --indigo:#2a4458;        /* 藍 */
+  --kusaki:#7a6a3e;        /* 草木染オリーブ */
+  --bg:#faf6ee;            /* 生成り */
+  --bg-warm:#f3ead8;
+  --paper:#fffdf6;
+  --ink:#2b1d12;           /* 墨 */
+  --ink-soft:#5a4632;
+  --rule:#d8c89a;
+  --shadow:0 2px 8px rgba(74,42,18,.08);
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{
+  font-family:"Yu Mincho","YuMincho","Hiragino Mincho ProN","Hiragino Mincho Pro","MS Mincho","Noto Serif JP","Times New Roman",serif;
+  background:var(--bg);
+  color:var(--ink);
+  line-height:1.85;
+  font-size:16px;
+  -webkit-text-size-adjust:100%;
+}
+.wrap{max-width:880px;margin:0 auto;padding:24px 22px 80px}
+header.title{
+  text-align:center;
+  padding:30px 16px 26px;
+  border-top:3px double var(--gold);
+  border-bottom:3px double var(--gold);
+  margin-bottom:8px;
+  background:linear-gradient(180deg,var(--paper),var(--bg-warm));
+}
+header.title .kanji{
+  font-size:13px;
+  letter-spacing:.6em;
+  color:var(--gold-dark);
+  margin-bottom:6px;
+}
+header.title h1{
+  font-size:30px;
+  margin:0;
+  letter-spacing:.18em;
+  color:var(--beni-dark);
+  font-weight:700;
+}
+header.title .sub{
+  font-size:13px;
+  color:var(--ink-soft);
+  margin-top:8px;
+  letter-spacing:.1em;
+}
+.tab-group{display:flex;flex-wrap:wrap;gap:6px;justify-content:center;margin:14px 0 6px}
+.tab{
+  cursor:pointer;
+  padding:8px 14px;
+  font-size:13px;
+  border:1px solid var(--rule);
+  background:var(--paper);
+  color:var(--ink-soft);
+  border-radius:999px;
+  transition:.15s;
+  user-select:none;
+  font-family:inherit;
+}
+.tab:hover{border-color:var(--gold);color:var(--ink)}
+.tab.active{
+  background:var(--beni);
+  color:#fff;
+  border-color:var(--beni-dark);
+  box-shadow:0 2px 6px rgba(169,38,38,.25);
+}
+.tab.mode.active{background:var(--indigo);border-color:#1a2c3a}
+.divider{
+  text-align:center;
+  margin:18px 0 8px;
+  color:var(--gold-dark);
+  letter-spacing:1em;
+  font-size:11px;
+}
+section.chapter{
+  background:var(--paper);
+  border:1px solid var(--rule);
+  border-radius:4px;
+  padding:26px 28px 28px;
+  margin:18px 0;
+  box-shadow:var(--shadow);
+}
+section.chapter > .ch-no{
+  display:inline-block;
+  font-size:11px;
+  letter-spacing:.4em;
+  color:var(--gold-dark);
+  border:1px solid var(--gold);
+  padding:3px 10px;
+  border-radius:2px;
+  margin-bottom:10px;
+}
+section.chapter h2{
+  font-size:22px;
+  color:var(--beni-dark);
+  margin:6px 0 14px;
+  padding-bottom:8px;
+  border-bottom:2px solid var(--gold);
+  letter-spacing:.06em;
+}
+section.chapter h3{
+  font-size:17px;
+  color:var(--indigo);
+  margin:22px 0 8px;
+  padding-left:10px;
+  border-left:4px solid var(--beni);
+  letter-spacing:.04em;
+}
+section.chapter h4{
+  font-size:14px;
+  color:var(--kusaki);
+  margin:14px 0 4px;
+  letter-spacing:.05em;
+}
+p{margin:8px 0 12px;text-align:justify}
+.lead{
+  background:var(--bg-warm);
+  border-left:4px solid var(--gold);
+  padding:14px 16px;
+  margin:14px 0;
+  font-size:15px;
+  border-radius:0 4px 4px 0;
+}
+.term{
+  background:linear-gradient(transparent 60%,rgba(201,163,90,.35) 60%);
+  font-weight:600;
+}
+.term-en{
+  font-style:italic;
+  color:var(--beni-dark);
+  font-weight:600;
+}
+.note{
+  background:#fff8e8;
+  border:1px dashed var(--gold);
+  padding:12px 14px;
+  margin:14px 0;
+  font-size:14px;
+  border-radius:4px;
+}
+.note .label{
+  color:var(--beni-dark);
+  font-weight:700;
+  margin-right:6px;
+  letter-spacing:.1em;
+}
+.factcheck{
+  background:#fef0f0;
+  border:1px solid #d96b6b;
+  padding:14px 16px;
+  margin:18px 0;
+  font-size:13.5px;
+  border-radius:4px;
+  line-height:1.75;
+}
+.factcheck .label{
+  color:#7a1a1a;
+  font-weight:700;
+  display:block;
+  margin-bottom:6px;
+  font-size:13px;
+  letter-spacing:.1em;
+}
+.factcheck ul{margin:6px 0;padding-left:18px}
+.factcheck li{margin:6px 0}
+ul.bullet{padding-left:22px}
+ul.bullet li{margin:4px 0}
+.qa{margin:14px 0;padding:0;list-style:none}
+.qa-item{
+  border-bottom:1px dotted var(--rule);
+  padding:14px 0;
+}
+.qa-q{
+  color:var(--beni-dark);
+  font-weight:700;
+  margin-bottom:6px;
+  padding-left:24px;
+  position:relative;
+}
+.qa-q::before{
+  content:"Q";
+  position:absolute;left:0;top:0;
+  width:18px;height:18px;
+  border-radius:50%;
+  background:var(--beni);
+  color:#fff;
+  font-size:11px;
+  text-align:center;
+  line-height:18px;
+}
+.qa-a{
+  padding-left:24px;
+  position:relative;
+}
+.qa-a::before{
+  content:"A";
+  position:absolute;left:0;top:0;
+  width:18px;height:18px;
+  border-radius:50%;
+  background:var(--indigo);
+  color:#fff;
+  font-size:11px;
+  text-align:center;
+  line-height:18px;
+}
+.flow{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(120px,1fr));
+  gap:8px;
+  margin:14px 0;
+}
+.flow-step{
+  background:var(--bg-warm);
+  border:1px solid var(--rule);
+  border-radius:4px;
+  padding:10px;
+  text-align:center;
+  font-size:13px;
+}
+.flow-step .num{
+  display:block;
+  color:var(--beni);
+  font-weight:700;
+  font-size:11px;
+  letter-spacing:.2em;
+  margin-bottom:4px;
+}
+.tenchijin{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:10px;
+  margin:14px 0;
+}
+.tenchijin .card{
+  background:var(--bg-warm);
+  border:1px solid var(--gold);
+  border-radius:4px;
+  padding:14px 12px;
+  text-align:center;
+}
+.tenchijin .kan{
+  font-size:32px;
+  color:var(--beni-dark);
+  font-weight:700;
+  margin-bottom:6px;
+  letter-spacing:.1em;
+}
+.tenchijin .ttl{
+  font-size:13px;
+  color:var(--gold-dark);
+  letter-spacing:.2em;
+  margin-bottom:6px;
+}
+.tenchijin .desc{font-size:12.5px;color:var(--ink-soft);text-align:left;line-height:1.7}
+.weave-table{
+  display:grid;
+  grid-template-columns:1fr 1fr 1fr;
+  gap:6px;
+  margin:10px 0;
+  font-size:13px;
+}
+.weave-table .cell{
+  background:var(--bg-warm);
+  border:1px solid var(--rule);
+  padding:10px;
+  border-radius:4px;
+}
+.weave-table .cell h5{
+  margin:0 0 4px;
+  color:var(--beni-dark);
+  font-size:13px;
+}
+a.link{
+  color:var(--beni-dark);
+  text-decoration:none;
+  border-bottom:1px solid var(--gold);
+}
+a.link:hover{color:var(--beni);border-bottom-color:var(--beni)}
+.video-link{
+  display:block;
+  background:linear-gradient(135deg,#fff8e8,#fef0f0);
+  border:2px solid var(--beni);
+  border-radius:8px;
+  padding:18px 20px;
+  margin:18px 0;
+  text-decoration:none;
+  color:var(--ink);
+  transition:.2s;
+}
+.video-link:hover{
+  background:linear-gradient(135deg,#fef0f0,#fff8e8);
+  box-shadow:0 4px 12px rgba(169,38,38,.15);
+  transform:translateY(-1px);
+}
+.video-link .pre{font-size:11px;color:var(--gold-dark);letter-spacing:.3em;margin-bottom:6px}
+.video-link .ttl{font-size:16px;color:var(--beni-dark);font-weight:700;margin-bottom:4px}
+.video-link .desc{font-size:13px;color:var(--ink-soft);line-height:1.7}
+.video-link .url{font-size:11px;color:var(--gold-dark);margin-top:8px;word-break:break-all}
+.foot{
+  text-align:center;
+  margin-top:36px;
+  padding:20px 0;
+  border-top:3px double var(--gold);
+  font-size:12px;
+  color:var(--ink-soft);
+  letter-spacing:.1em;
+}
+.foot .src{margin-top:10px;font-size:11px}
+.foot a{color:var(--gold-dark);text-decoration:none}
+.foot a:hover{color:var(--beni)}
+.toc{
+  background:var(--bg-warm);
+  border:1px solid var(--rule);
+  border-radius:4px;
+  padding:14px 18px;
+  margin:14px 0;
+}
+.toc h3{
+  margin:0 0 6px;
+  font-size:14px;
+  color:var(--gold-dark);
+  letter-spacing:.2em;
+  border:none;
+  padding:0;
+}
+.toc ol{margin:6px 0 0;padding-left:22px;font-size:13.5px}
+.toc li{margin:3px 0}
+.toc a{color:var(--ink);text-decoration:none}
+.toc a:hover{color:var(--beni-dark)}
+/* show/hide by language and mode */
+.lang-block,.mode-block{display:none}
+.lang-block.show,.mode-block.show{display:block}
+@media(max-width:600px){
+  .wrap{padding:16px 12px 60px}
+  header.title h1{font-size:22px}
+  section.chapter{padding:18px 16px}
+  .tenchijin{grid-template-columns:1fr}
+  .weave-table{grid-template-columns:1fr}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header class="title">
+  <div class="kanji">出 羽 米 澤</div>
+  <h1>米 沢 織 ガ イ ド</h1>
+  <div class="sub">YONEZAWA-ORI ｜ The Textile of Yonezawa ｜ 米澤織</div>
+</header>
+
+<div class="tab-group" role="tablist" aria-label="言語選択">
+  <button class="tab lang active" data-lang="ja" type="button">🇯🇵 日本語</button>
+  <button class="tab lang" data-lang="en" type="button">🇬🇧 English</button>
+  <button class="tab lang" data-lang="tw" type="button">🇹🇼 繁體中文</button>
+</div>
+<div class="tab-group" role="tablist" aria-label="モード選択">
+  <button class="tab mode active" data-mode="tourist" type="button">🎌 観光客向け / Tourist</button>
+  <button class="tab mode" data-mode="interp" type="button">📚 通訳者向け / Interpreter</button>
+</div>
+<div class="divider">・ ・ ・</div>
+
+<!-- ====================================================== -->
+<!-- ============ JAPANESE / 日本語 ======================== -->
+<!-- ====================================================== -->
+<div class="lang-block show" data-lang="ja">
+
+<!-- ===== TOURIST MODE (JA) ===== -->
+<div class="mode-block show" data-mode="tourist">
+
+<section class="chapter">
+  <span class="ch-no">序　章</span>
+  <h2>はじめに ── 200年以上続く、織りの町</h2>
+  <p class="lead">山形県南部・米沢。冬は深い雪に閉ざされ、夏は盆地特有の蒸し暑さに包まれるこの城下町で、200年以上前に始まった織物文化が、今もなお息づいています。米沢藩9代藩主・<span class="term">上杉鷹山</span>公が、財政難に苦しむ藩を救うために起こした絹織物業。その伝統は時代を超えて受け継がれ、現在は袴生産で日本一のシェアを誇る一方、世界の高級ファッションブランドにも生地を供給する「小さくともキラリと光る産地」となっています。</p>
+  <div class="toc">
+    <h3>目　次</h3>
+    <ol>
+      <li>第一章｜米沢織の歴史</li>
+      <li>第二章｜米沢織のつくりかた</li>
+      <li>第三章｜米沢織Q&amp;A</li>
+      <li>第四章｜紅花染と米沢の赤</li>
+      <li>第五章｜体験・購入・関連リンク</li>
+    </ol>
+  </div>
+</section>
+
+<section class="chapter">
+  <span class="ch-no">第　一　章</span>
+  <h2>米沢織の歴史</h2>
+
+  <h3>麻織物から絹織物へ ── 直江兼続と鷹山公</h3>
+  <p>慶長5年（1600年）、関ヶ原の合戦で豊臣方についた上杉軍は、会津120万石を没収され、米沢30万石へ移封されました。藩主<span class="term">上杉景勝</span>公の側近<span class="term">直江兼続</span>は、領地が4分の1になった藩の財政を立て直すため、桑（くわ）・<span class="term">青苧</span>（あおそ／別名「からむし」、麻の原料）・<span class="term">紅花</span>（べにばな）など、お金になる植物の栽培を奨励しました。</p>
+  <p>それから約200年後、本格的な米沢織を興したのが第9代藩主<span class="term">上杉鷹山</span>（治憲）公でした。武士の妻や娘たちに副業として機織りを習わせ、新潟県小千谷から技術者を招いて<span class="term">縮布</span>（ちぢみふ）の生産に成功。それまでの麻織物から、置賜（おきたま）地方の養蚕業を活かした絹織物へと舵を切り、「出羽の米沢織」として全国に名を馳せるようになりました。</p>
+
+  <h3>明治・大正の発展 ── 二つの工業学校</h3>
+  <p>米沢織が技術的に飛躍したのは、明治・大正期に設立された二つの学校の存在が大きく関わっています。</p>
+  <h4>米沢工業学校（現・山形県立米沢工業高等学校）</h4>
+  <p>明治27年の実業教育費国庫補助法の公布を受け、組合と市民の寄付によって明治30年4月に開校。明治38年には同校教諭の<span class="term">高柳芳一</span>氏が、輸入力織機を参考に羽二重専用の<span class="term">高柳式力織機</span>を開発し、米沢織を機械化の波に乗せました。</p>
+  <h4>米沢高等工業学校（現・山形大学工学部）</h4>
+  <p>明治43年に全国7番目の高等工業学校として開設。同校教授の<span class="term">秦逸三</span>（はた・いつぞう）氏は、大正6年に日本で初めて<span class="term">人造絹糸</span>（人絹／レーヨン）の生産に成功。後にこの事業は<span class="term">帝国人造絹糸株式会社</span>（現・帝人株式会社）として独立し、米沢は日本の人絹発祥の地となりました。</p>
+
+  <h3>戦後から現在 ── 繊維の総合産地へ</h3>
+  <p>戦後の洋装化に伴い、昭和30年頃から合化繊糸を使った先染めの婦人服地が主流に。米沢は呉服と服地の両面で評価される産地となりました。和装では<span class="term">袴地</span>が全国の90%以上のシェアを誇り、洋装では「織のイタリア・コモ」と並び称されるほどの技術力で、デザイナーズブランド・ハイブランドに生地を供給しています。原糸商・染色・撚糸・意匠・縫製・ニットまで一産地に集積する、日本でも珍しい<span class="term">繊維の総合産地</span>です。</p>
+
+  <div class="tenchijin">
+    <div class="card"><div class="kan">天</div><div class="ttl">天の時</div><div class="desc">豪雪・寒冷な気候が屋内作業を必要とした</div></div>
+    <div class="card"><div class="kan">地</div><div class="ttl">地の利</div><div class="desc">青苧・紅花・養蚕など原材料が豊富</div></div>
+    <div class="card"><div class="kan">人</div><div class="ttl">人の和</div><div class="desc">鷹山公以来の挑戦と粘り強い気質</div></div>
+  </div>
+</section>
+
+<section class="chapter">
+  <span class="ch-no">第　二　章</span>
+  <h2>米沢織のつくりかた</h2>
+
+  <h3>原料 ── 絹・青苧・紅花</h3>
+  <p>江戸時代初期にはすでに、桑・青苧・紅花の栽培が行われていました。直江兼続の奨励により、これらは米沢藩の特産物となり、青苧は越後縮の原料として越後（新潟）に出荷されたほどです。桑栽培と養蚕の発展に伴い、織物は麻 → 麻絹交織 → 絹織物 へと移行。大正時代に秦逸三が人絹の生産に成功すると、戦後の洋装化を経て、現在では絹から合成繊維まで多種多様な原料が使われています。</p>
+  <p>染料は当初、紅花など植物を用いた<span class="term">草木染</span>が中心でしたが、明治期に化学染料が普及。とはいえ現在も、伝統的な草木染の技術はしっかり受け継がれています。</p>
+
+  <h3>工程 ── 6つのステップ</h3>
+  <div class="flow">
+    <div class="flow-step"><span class="num">1</span>企画</div>
+    <div class="flow-step"><span class="num">2</span>デザイン・設計</div>
+    <div class="flow-step"><span class="num">3</span>染色・準備</div>
+    <div class="flow-step"><span class="num">4</span>製織</div>
+    <div class="flow-step"><span class="num">5</span>仕上げ・検査</div>
+    <div class="flow-step"><span class="num">6</span>縫製</div>
+  </div>
+  <p><b>1. 企画</b>：流行を先取りした商品を考えます。<br>
+  <b>2. デザイン・設計</b>：絵柄を「意匠図」に起こし、織りで表現するための「組織図」を作成。必要に応じて<span class="term">紋紙</span>（ジャカード織機の型紙）を作ります。<br>
+  <b>3. 染色・準備</b>：糸に撚（よ）りを加え、先染めの場合は染料で糸を染めます。経糸（たていと）を必要な長さと本数に整える「整経」を行い、織機にセットします。<br>
+  <b>4. 製織</b>：複雑な柄に強い<span class="term">ジャカード織</span>と、緻密で滑らかな生地に仕上がる<span class="term">ドビー織</span>が米沢織の二本柱です。現在はコンピュータ制御で高速に織られます。<br>
+  <b>5. 仕上げ・検査</b>：幅をそろえ、しわを伸ばし、光沢を与える。後染めの場合はここで染色します。<br>
+  <b>6. 縫製</b>：着物・洋服に仕立てます。</p>
+
+  <h3>三原組織 ── 平織・綾織・繻子織</h3>
+  <div class="weave-table">
+    <div class="cell"><h5>平織（ひらおり）</h5>もっとも単純な織り方。丈夫でコシがあり扱いやすい。</div>
+    <div class="cell"><h5>綾織（あやおり）</h5>伸縮性がありシワになりにくい。デニムなどに使われる。</div>
+    <div class="cell"><h5>繻子織（しゅすおり）</h5>表面が滑らかで光沢感のある生地。サテン。</div>
+  </div>
+</section>
+
+<section class="chapter">
+  <span class="ch-no">第　三　章</span>
+  <h2>米沢織Q&amp;A</h2>
+  <ul class="qa">
+    <li class="qa-item">
+      <div class="qa-q">米沢織のルーツは？</div>
+      <div class="qa-a">第9代米沢藩主・上杉鷹山公が、藩財政再建のため武士の婦女子に織物を習得させたのがルーツです。新潟県小千谷から技術者を招き、寺町蔵屋敷に「縮み役場」を設けて指導しました。その後、養蚕の発展とともに絹織物へと転換しました。</div>
+    </li>
+    <li class="qa-item">
+      <div class="qa-q">そもそも織物とは？</div>
+      <div class="qa-a">タテ糸とヨコ糸を直角に組み合わせて作る布のこと。基本は「平織・綾織・繻子織」の三原組織です。</div>
+    </li>
+    <li class="qa-item">
+      <div class="qa-q">糸に撚りをかけるのはなぜ？</div>
+      <div class="qa-a">糸の強度を増して織りやすくするため、そして布地の表面に独特の手触り（しぼ＝強撚糸ならではの細かなしわ）を与えるためです。</div>
+    </li>
+    <li class="qa-item">
+      <div class="qa-q">先染めと後染めの違いは？</div>
+      <div class="qa-a">織る前の糸の段階で染めるのが先染め、織った後の生地で染めるのが後染め。米沢織は先染めの技術が特に高く評価されています。</div>
+    </li>
+    <li class="qa-item">
+      <div class="qa-q">草木染とは？</div>
+      <div class="qa-a">植物染料で糸や布を染める技法。樹皮・幹・根・花・実・葉を煮出して染液をつくり、媒染（アルミ・スズ・クロムなどの触媒）を併用して色を出します。「草木染」の名称は昭和5年の第一回手織紬復興展覧会で命名されました。</div>
+    </li>
+    <li class="qa-item">
+      <div class="qa-q">ジャカード織とドビー織の違いは？</div>
+      <div class="qa-a">どちらも織機の柄出し装置の名前。ジャカードはタテ糸を1本ずつ別々に制御でき、複雑で細かな柄が織れます。ドビーは一定本数のタテ糸を一括制御するため細かさは劣りますが、緻密でなめらかな生地に仕上がります。</div>
+    </li>
+    <li class="qa-item">
+      <div class="qa-q">米沢織は何を作っている？</div>
+      <div class="qa-a">洋装ではスーツ・ワンピース・コート・フォーマルドレスの高級服地。和装では着物（紬・訪問着・つけ下げ）、帯、雨コート、男性用の袴・長襦袢、マフラー・スカーフ・ネクタイなど多岐にわたります。</div>
+    </li>
+    <li class="qa-item">
+      <div class="qa-q">米沢織が誇る「日本一」「世界一」とは？</div>
+      <div class="qa-a">袴地は全国の90%以上のシェアを持ち、これは日本一です。また婦人服地の分野では、世界的な絹織物産地イタリア・コモに匹敵する技術力を持つと言われています。</div>
+    </li>
+  </ul>
+</section>
+
+<section class="chapter">
+  <span class="ch-no">第　四　章</span>
+  <h2>紅花染と米沢の赤 ── Beni, Japanese Red</h2>
+  <p class="lead">古くから米沢で栽培されてきた<span class="term">紅花</span>は、太陽を象徴する深い赤色に布を染め上げる、日本独特の天然染料です。山形県は江戸時代の最盛期に全国の紅花生産の大部分を担い、最上川の舟運で京都・大阪へ運ばれました。米沢ではこの紅花を使った草木染が、米沢織の代表的な意匠として今も受け継がれています。</p>
+  <a class="video-link" href="https://www3.nhk.or.jp/nhkworld/en/shows/6053013/" target="_blank" rel="noopener">
+    <div class="pre">NHK WORLD-JAPAN ｜ Time-lapse Japan</div>
+    <div class="ttl">YONEZAWA: "Beni," Japanese Red</div>
+    <div class="desc">古来より米沢で育てられてきた紅花が、太陽を象徴する深い赤色を布に染める。神秘的で鮮やかな美しさをタイムラプス映像で体験できる、NHK WORLD公式の英語番組です。</div>
+    <div class="url">https://www3.nhk.or.jp/nhkworld/en/shows/6053013/</div>
+  </a>
+  <div class="note"><span class="label">📖 豆知識</span>紅花は別名「末摘花（すえつむはな）」とも呼ばれ、源氏物語の登場人物の名としても知られています。摘み取った花弁を発酵させて丸めた<span class="term">紅餅</span>（べにもち）が、染料の原料として全国に流通しました。</div>
+</section>
+
+<section class="chapter">
+  <span class="ch-no">第　五　章</span>
+  <h2>体験・購入・関連リンク</h2>
+
+  <h3>米沢織を見る・買う</h3>
+  <p><b>織元直営ショップ「おりじん」</b><br>米沢繊維協議会が運営する直売所。和装・洋装の生地から小物まで幅広く取り扱います。</p>
+  <p><b>米沢織物歴史資料館</b><br>江戸時代の麻織物から明治・大正期のジャカード六寸帯まで、米沢織の歴史的所蔵品を展示しています。</p>
+
+  <h3>米沢織の体験</h3>
+  <p>機織り体験・染色体験を実施している織元・工房があります。最新情報は米沢繊維協議会または米沢観光NAVIにお問い合わせください。</p>
+
+  <h3>関連リンク</h3>
+  <ul class="bullet">
+    <li><a class="link" href="https://www.yoneori.com/" target="_blank" rel="noopener">米沢繊維協議会公式サイト</a> ── 米沢織の総本山。歴史・工程・Q&amp;A</li>
+    <li><a class="link" href="https://www.yoneori.com/what/" target="_blank" rel="noopener">米沢織物とは（米沢繊維協議会）</a> ── 本ガイドの主な参考元</li>
+    <li><a class="link" href="https://www3.nhk.or.jp/nhkworld/en/shows/6053013/" target="_blank" rel="noopener">NHK World – YONEZAWA: "Beni," Japanese Red</a> ── 紅花染を映像で</li>
+    <li><a class="link" href="https://www.yonezawa-kankou-navi.com/souvenir/yoneori.html" target="_blank" rel="noopener">米沢観光NAVI（米沢織）</a> ── 観光案内</li>
+  </ul>
+</section>
+
+</div><!-- /tourist ja -->
+
+
+<!-- ===== INTERPRETER MODE (JA) ===== -->
+<div class="mode-block" data-mode="interp">
+
+<section class="chapter">
+  <span class="ch-no">通訳者用｜序章</span>
+  <h2>米沢織ガイド｜Study Mode</h2>
+  <p class="lead">本Study Modeは、観光ガイド・通訳ガイド・旅行業者の案内者の方が、米沢織に関する解説を多言語で行うための<b>用語整理・読み下し・文化背景・ファクトチェック注記</b>を補強したモードです。一次情報の出典を併記し、確実な事実と「広く語られる伝承」を区別して扱います。</p>
+</section>
+
+<section class="chapter">
+  <span class="ch-no">通訳者用｜第一章</span>
+  <h2>歴史 ── 一次史料準拠の読み下し</h2>
+
+  <h3>慶長5年の移封 ── 上杉景勝・直江兼続体制</h3>
+  <p><span class="term">慶長五年</span>（けいちょう・ごねん／1600年）<span class="term">関ヶ原の戦い</span>後、上杉景勝（うえすぎ・かげかつ）は会津<b>120万石</b>から米沢<b>30万石</b>へ大幅に減封となり移封。藩政再建のため、家老<span class="term">直江兼続</span>（なおえ・かねつぐ）が殖産政策を主導した。換金作物として奨励されたのが、桑・<span class="term-en">aoso</span>（青苧）・<span class="term-en">benibana</span>（紅花）である。</p>
+  <h4>用語整理：青苧／苧麻／からむし</h4>
+  <ul class="bullet">
+    <li><b>青苧（あおそ）</b>：イラクサ科多年草「苧麻（ちょま、Ramie）」の別称。米沢では「<b>からむし</b>」とも呼ばれる。学名 <i>Boehmeria nivea</i>。麻織物（厳密にはramie cloth）の原料。</li>
+    <li><b>麻（あさ）</b>：日本語では大麻（hemp, <i>Cannabis sativa</i>）・苧麻（ramie）・亜麻（linen, <i>Linum usitatissimum</i>）等を総称。「米沢の麻」は基本的にramieであり、英訳ではhempではなく<b>ramie</b>または<b>bast fiber</b>と訳すのが正確。</li>
+  </ul>
+
+  <h3>第9代藩主・上杉鷹山の織物業創始</h3>
+  <p>第9代米沢藩主<span class="term">上杉治憲</span>（うえすぎ・はるのり、号<span class="term">鷹山（ようざん）</span>、1751–1822）が、財政再建策の一環として藩士の婦女子に内職機織を習得させ、これが本格的な米沢織業の発祥とされる。新潟県<span class="term">小千谷</span>（おぢや）から技術者を招き<span class="term">縮布（ちぢみふ）</span>の生産に成功。</p>
+
+  <h3>明治・大正期の技術発展</h3>
+  <p><b>米沢工業学校</b>（明治30年開校／現・山形県立米沢工業高等学校）と<b>米沢高等工業学校</b>（明治43年開校／現・山形大学工学部）は<b>別組織</b>。前者は中等教育機関、後者は全国7番目の高等専門教育機関で、両者の混同に注意。</p>
+  <ul class="bullet">
+    <li>明治38年｜<span class="term">高柳芳一</span>（米沢工業学校教諭）が高柳式力織機（羽二重用）を開発</li>
+    <li>大正6年（1917）｜<span class="term">秦逸三</span>（米沢高等工業学校教授）が日本初の<b>人造絹糸（人絹／レーヨン）</b>商業生産に成功</li>
+    <li>後年、<span class="term">帝国人造絹糸株式会社</span>（現・<span class="term">帝人株式会社</span>）が分離独立。米沢工場は昭和6年に操業停止</li>
+  </ul>
+
+  <div class="factcheck">
+    <span class="label">⚠️ ファクトチェック注意点</span>
+    <ul>
+      <li><b>「日本一の袴シェア」の表記揺れ</b>：米沢繊維協議会公式サイトでは、ページ上段で「絹を原料とした袴地は、全国の90%以上のシェア」、Q&amp;A欄では「ハカマは日本全国で95%以上のシェア」と、<b>90%と95%の二系統</b>が併記されている。安全な訳出は<b>「90%以上（over 90%）」</b>。「95%」を使う場合は出典をQ&amp;A欄と限定的に紹介するのが確実。</li>
+      <li><b>「世界のコモに匹敵」の比較表現</b>：米沢繊維協議会公式コメントだが、定量的な国際比較データの出典は明示されていない。観光案内では「<b>世界的な絹織物産地イタリア・コモと並び称される（is often compared to ...）</b>」のように業界内評価であることを示す枠組みで紹介する。</li>
+      <li><b>鷹山公にまつわる伝承</b>：上杉鷹山公がケネディ大統領に「最も尊敬する日本人」と挙げられたという逸話は、上杉神社ガイド同様、<b>一次史料未確認の日本国内伝承</b>。米沢織解説でこの逸話を持ち出す場合も同等の慎重さで扱う。</li>
+      <li><b>紅花染の中心地</b>：「紅花＝米沢」と単純化しない。江戸期の<b>最上紅花</b>（もがみべにばな）は山形県の最上川流域全域が産地で、特に村山地方が大量生産を担った。米沢藩はその南端で生産・流通の一翼を担い、染色技術の中心は京都の染屋。「米沢で紅花染が伝統技術として残っていること」と「米沢が紅花の主要産地そのものであったこと」は表現を分けると正確。</li>
+    </ul>
+  </div>
+</section>
+
+<section class="chapter">
+  <span class="ch-no">通訳者用｜第二章</span>
+  <h2>原料・工程・用語の英訳テンプレート</h2>
+
+  <h3>原料 ── 推奨英訳</h3>
+  <ul class="bullet">
+    <li>桑（くわ）→ <span class="term-en">mulberry</span></li>
+    <li>青苧／苧麻／からむし → <span class="term-en">ramie</span>（<i>Boehmeria nivea</i>）</li>
+    <li>紅花（べにばな）→ <span class="term-en">safflower</span>（<i>Carthamus tinctorius</i>）</li>
+    <li>紅餅（べにもち）→ <span class="term-en">beni-mochi</span>（fermented safflower petal cakes）</li>
+    <li>絹（きぬ）→ <span class="term-en">silk</span>／繭（まゆ）→ <span class="term-en">cocoon</span>／養蚕（ようさん）→ <span class="term-en">sericulture</span></li>
+    <li>人絹／人造絹糸（じんけん）→ <span class="term-en">rayon</span>（artificial silk, viscose rayon）</li>
+    <li>合化繊（ごうかせん）→ <span class="term-en">synthetic fibers</span></li>
+  </ul>
+
+  <h3>織りの種類 ── 推奨英訳</h3>
+  <ul class="bullet">
+    <li>平織（ひらおり）→ <span class="term-en">plain weave / tabby weave</span></li>
+    <li>綾織（あやおり）→ <span class="term-en">twill weave</span></li>
+    <li>繻子織（しゅすおり）→ <span class="term-en">satin weave</span></li>
+    <li>ジャカード織 → <span class="term-en">Jacquard weave</span>（仏 Joseph Marie Jacquard 由来）</li>
+    <li>ドビー織 → <span class="term-en">Dobby weave</span></li>
+    <li>先染（さきぞめ）→ <span class="term-en">yarn-dyed</span>／後染（あとぞめ）→ <span class="term-en">piece-dyed / fabric-dyed</span></li>
+    <li>草木染（くさきぞめ）→ <span class="term-en">natural plant dyeing</span>（"kusakizome", coined in 1930）</li>
+    <li>媒染（ばいせん）→ <span class="term-en">mordanting</span>（aluminum, tin, chromium 等）</li>
+    <li>意匠図（いしょうず）→ <span class="term-en">design draft</span>／組織図 → <span class="term-en">weave structure diagram</span>／紋紙（もんがみ）→ <span class="term-en">punch card / Jacquard card</span></li>
+    <li>整経（せいけい）→ <span class="term-en">warping</span>／撚糸（ねんし）→ <span class="term-en">yarn twisting</span></li>
+    <li>強撚糸（きょうねんし）→ <span class="term-en">high-twist yarn</span>／しぼ → <span class="term-en">crepe texture / shibori</span>（縮みの場合は "chijimi crepe"）</li>
+  </ul>
+
+  <h3>製品 ── 推奨英訳</h3>
+  <ul class="bullet">
+    <li>袴（はかま）→ <span class="term-en">hakama</span>（traditional pleated trousers）</li>
+    <li>紬（つむぎ）→ <span class="term-en">tsumugi</span>（pongee silk）</li>
+    <li>訪問着 → <span class="term-en">homongi</span>（formal kimono）</li>
+    <li>つけ下げ → <span class="term-en">tsukesage</span>（semi-formal kimono）</li>
+    <li>長襦袢（ながじゅばん）→ <span class="term-en">nagajuban</span>（kimono undergarment）</li>
+    <li>帯（おび）→ <span class="term-en">obi</span>（kimono sash）</li>
+  </ul>
+</section>
+
+<section class="chapter">
+  <span class="ch-no">通訳者用｜第三章</span>
+  <h2>NHK World 紅花番組の活用</h2>
+  <a class="video-link" href="https://www3.nhk.or.jp/nhkworld/en/shows/6053013/" target="_blank" rel="noopener">
+    <div class="pre">NHK WORLD-JAPAN ｜ Time-lapse Japan</div>
+    <div class="ttl">YONEZAWA: "Beni," Japanese Red</div>
+    <div class="desc">公式説明：「Since ancient times, safflowers grown in Yonezawa have been used to dye fabric a deep red color associated with the sun. Experience its mysterious, vivid beauty through time-lapse footage.」<br>視覚に訴える短尺映像で、英語キャプション付き。海外ゲストへの導入に最適。</div>
+    <div class="url">https://www3.nhk.or.jp/nhkworld/en/shows/6053013/</div>
+  </a>
+  <div class="note"><span class="label">💡 案内のコツ</span>NHKの当該番組は紅花染め工程をタイムラプスで圧縮しており、染料が変化する様を視覚的に短時間で説明できます。米沢織の説明導入として最初に5分映像を観てもらうと、その後の染色工程の説明が大幅にスムーズになります。</div>
+  <div class="factcheck">
+    <span class="label">⚠️ ファクトチェック注意点</span>
+    <ul>
+      <li>NHK番組の文言「Since ancient times, safflowers grown in Yonezawa」は米沢が紅花の主産地であるとの含意を残すが、実際は山形県全体（特に村山地方）が中心。番組内容を補強する際は本ガイド第一章のファクトチェック注記と整合させ、「紅花の伝統的染色技術が米沢織として継承されている」点を強調する。</li>
+      <li>「Japanese Red」は固有名詞ではなく番組タイトル上のキャッチコピー。日本の伝統色名としては<b>韓紅花（からくれない）</b>、<b>紅梅色</b>、<b>真紅</b>等が紅花染の色相に該当。</li>
+    </ul>
+  </div>
+</section>
+
+<section class="chapter">
+  <span class="ch-no">通訳者用｜第四章</span>
+  <h2>地域団体商標と産地表記</h2>
+  <p>「米沢織」は<b>地域団体商標</b>として登録されている（権利者：米沢織物工業組合）。本来の地域団体商標は、地域＋普通名称の組合せで、出所を明示する制度。海外ガイドで紹介する際は <span class="term-en">Yonezawa-ori</span>（registered as a Regionally Based Collective Trademark）と表記すると正確。</p>
+  <p>産地行政上、米沢織は<b>経済産業大臣指定伝統的工芸品「置賜紬（おいたまつむぎ）」</b>の構成産地の一つとされる場面もあるが、「米沢織」と「置賜紬」は同一概念ではない。置賜紬は米沢・長井・白鷹の3市町で生産される紬の総称で、米沢織はそれに加え洋装服地・袴地等を含む、より広い概念。</p>
+</section>
+
+</div><!-- /interp ja -->
+
+</div><!-- /lang ja -->
+
+
+<!-- ====================================================== -->
+<!-- ============ ENGLISH ================================== -->
+<!-- ====================================================== -->
+<div class="lang-block" data-lang="en">
+
+<!-- ===== TOURIST MODE (EN) ===== -->
+<div class="mode-block show" data-mode="tourist">
+
+<section class="chapter">
+  <span class="ch-no">P R O L O G U E</span>
+  <h2>A Town Woven for Over 200 Years</h2>
+  <p class="lead">In southern Yamagata Prefecture, the castle town of Yonezawa endures heavy snow in winter and humid heat in summer. For over 200 years, weaving has been at the heart of this town. <span class="term">Lord Uesugi Yozan</span>, the 9th lord of the Yonezawa domain, founded a silk weaving industry to rescue his struggling domain. Today, Yonezawa produces over 90% of all <i>hakama</i> (traditional pleated trousers) in Japan, and supplies fabric to leading global luxury fashion brands. As locals say, "we may be small — but we shine."</p>
+  <div class="toc">
+    <h3>C O N T E N T S</h3>
+    <ol>
+      <li>Chapter 1｜History of Yonezawa-ori</li>
+      <li>Chapter 2｜How Yonezawa-ori is Made</li>
+      <li>Chapter 3｜Yonezawa-ori Q&amp;A</li>
+      <li>Chapter 4｜Beni — The Red of Yonezawa</li>
+      <li>Chapter 5｜Where to Visit, What to Buy</li>
+    </ol>
+  </div>
+</section>
+
+<section class="chapter">
+  <span class="ch-no">C H A P T E R&nbsp;&nbsp;1</span>
+  <h2>The History of Yonezawa-ori</h2>
+
+  <h3>From Ramie to Silk — Naoe Kanetsugu and Lord Yozan</h3>
+  <p>In 1600, after losing the Battle of Sekigahara, the Uesugi clan was demoted from the 1.2-million-<i>koku</i> Aizu domain to the 300,000-<i>koku</i> Yonezawa domain — a quarter of its former size. To rebuild the shrinking treasury, chief retainer <span class="term">Naoe Kanetsugu</span> promoted the cultivation of cash crops: mulberry (for silkworms), <span class="term-en">ramie</span> ("aoso," for bast cloth), and <span class="term-en">safflower</span> ("benibana," for red dye).</p>
+  <p>Some 200 years later, the 9th lord, <span class="term">Uesugi Yozan</span> (Harunori, 1751–1822), formally founded the Yonezawa weaving industry. He had samurai wives and daughters take up weaving as cottage labor, and invited weavers from Ojiya in Niigata Prefecture to teach the production of <span class="term">chijimifu</span> (crepe cloth). Over time, the industry shifted from ramie to silk, drawing on the local sericulture (silkworm farming) of the Okitama region.</p>
+
+  <h3>Meiji and Taisho Era — Two Schools that Changed Everything</h3>
+  <p>Yonezawa's textile industry leapt forward in the late 19th and early 20th centuries thanks to two technical schools:</p>
+  <h4>Yonezawa Technical School (now Yamagata Prefectural Yonezawa Technical High School)</h4>
+  <p>Opened in April 1897 with funds from the local cooperative and citizens. In 1905, instructor <span class="term">Takayanagi Yoshikazu</span> developed the <span class="term">Takayanagi-style power loom</span> for habutae silk, modeled on imported looms.</p>
+  <h4>Yonezawa Higher Technical School (now Faculty of Engineering, Yamagata University)</h4>
+  <p>Opened in 1910 as the seventh higher technical school in Japan. Professor <span class="term">Hata Itsuzo</span> succeeded in 1917 in the first commercial production of <span class="term">artificial silk (rayon)</span> in Japan. This venture later became <span class="term">Teikoku Jinzo Kenshi K.K.</span>, today known as <b>Teijin Limited</b> — making Yonezawa the birthplace of Japanese rayon.</p>
+
+  <h3>Postwar to Today — A Comprehensive Textile Hub</h3>
+  <p>As Western clothing became standard after WWII, Yonezawa expanded into yarn-dyed women's fabrics from synthetic fibers around 1955. Today, the region produces over 90% of all <i>hakama</i> in Japan, and its silk fabrics — woven on Dobby and Jacquard looms — are often compared to those of Como, Italy, in quality. Yonezawa is one of the few regions in Japan that hosts the entire textile chain in one city: yarn merchants, dyers, twisters, designers, weavers, finishers, garment makers, and knitters.</p>
+
+  <div class="tenchijin">
+    <div class="card"><div class="kan">天</div><div class="ttl">TIME — TEN</div><div class="desc">Heavy snow and cold winters required indoor labor.</div></div>
+    <div class="card"><div class="kan">地</div><div class="ttl">PLACE — CHI</div><div class="desc">Abundant local resources: ramie, safflower, silk.</div></div>
+    <div class="card"><div class="kan">人</div><div class="ttl">PEOPLE — JIN</div><div class="desc">A spirit of innovation since Lord Yozan.</div></div>
+  </div>
+</section>
+
+<section class="chapter">
+  <span class="ch-no">C H A P T E R&nbsp;&nbsp;2</span>
+  <h2>How Yonezawa-ori is Made</h2>
+
+  <h3>Materials — Silk, Ramie, Safflower</h3>
+  <p>By the early Edo period, mulberry, ramie ("aoso"), and safflower were already being cultivated. Naoe Kanetsugu's promotion turned them into Yonezawa specialties — at one point, ramie from Yonezawa was even exported to Echigo (Niigata) as raw material for <i>Echigo-chijimi</i> cloth. As sericulture expanded, the industry shifted from ramie to mixed ramie-silk to pure silk. After Hata Itsuzo's rayon breakthrough in the Taisho era, Yonezawa embraced synthetic fibers and continues to weave with everything from silk to high-tech microfibers today.</p>
+  <p>The original dyes were natural — plant-based <span class="term">kusakizome</span> (草木染, "natural plant dyeing"), prominently using safflower. Chemical dyes spread in the Meiji era, but kusakizome traditions remain a living craft.</p>
+
+  <h3>The Six Steps of Yonezawa-ori</h3>
+  <div class="flow">
+    <div class="flow-step"><span class="num">1</span>Planning</div>
+    <div class="flow-step"><span class="num">2</span>Design</div>
+    <div class="flow-step"><span class="num">3</span>Dyeing &amp; Prep</div>
+    <div class="flow-step"><span class="num">4</span>Weaving</div>
+    <div class="flow-step"><span class="num">5</span>Finishing</div>
+    <div class="flow-step"><span class="num">6</span>Tailoring</div>
+  </div>
+  <p><b>1. Planning</b>: Anticipating fashion trends and proposing new fabrics.<br>
+  <b>2. Design</b>: A pattern draft is drawn, then translated into a weave-structure diagram, and — for Jacquard fabrics — into <span class="term">monogami</span> (Jacquard punch cards).<br>
+  <b>3. Dyeing &amp; Prep</b>: Yarn is twisted, then (for yarn-dyed fabric) immersed in dye baths. The warp is wound to the correct length and number of threads — a step called <span class="term">warping</span> — and set onto the loom.<br>
+  <b>4. Weaving</b>: <span class="term">Jacquard</span> looms can express intricate patterns; <span class="term">Dobby</span> looms produce dense, smooth fabrics. Both are now computer-controlled for high-speed production.<br>
+  <b>5. Finishing &amp; Inspection</b>: Width is adjusted, wrinkles smoothed, sheen added. Piece-dyed fabrics are dyed at this stage.<br>
+  <b>6. Tailoring</b>: The fabric is cut and sewn into kimono or Western garments.</p>
+
+  <h3>The Three Basic Weaves</h3>
+  <div class="weave-table">
+    <div class="cell"><h5>Plain weave</h5>The simplest interlacing — durable, firm, easy to handle.</div>
+    <div class="cell"><h5>Twill weave</h5>Stretchy and wrinkle-resistant — used for denim and many suits.</div>
+    <div class="cell"><h5>Satin weave</h5>Smooth and lustrous — soft to the touch.</div>
+  </div>
+</section>
+
+<section class="chapter">
+  <span class="ch-no">C H A P T E R&nbsp;&nbsp;3</span>
+  <h2>Yonezawa-ori Q&amp;A</h2>
+  <ul class="qa">
+    <li class="qa-item">
+      <div class="qa-q">What are the origins of Yonezawa-ori?</div>
+      <div class="qa-a">In the late 18th century, the 9th lord of Yonezawa, Uesugi Yozan, asked samurai women to take up weaving as a way to rebuild domain finances. He invited specialists from Ojiya (Niigata) and set up a "Chijimi Office" (a workshop for crepe cloth) in the Teramachi storehouse district. Over time, sericulture flourished and the focus shifted from ramie to silk.</div>
+    </li>
+    <li class="qa-item">
+      <div class="qa-q">What is "weaving," exactly?</div>
+      <div class="qa-a">Cloth made by interlacing warp (vertical) and weft (horizontal) yarns at right angles. The three foundational weaves are plain, twill, and satin.</div>
+    </li>
+    <li class="qa-item">
+      <div class="qa-q">Why twist the yarn?</div>
+      <div class="qa-a">Twisting strengthens the yarn so it weaves smoothly, and gives the fabric a unique surface — high-twist yarns produce a fine crepe texture (<i>shibo</i>) on the cloth's face.</div>
+    </li>
+    <li class="qa-item">
+      <div class="qa-q">What's the difference between yarn-dyed and piece-dyed?</div>
+      <div class="qa-a">Yarn-dyed (<i>sakizome</i>) means dyeing the yarn before weaving. Piece-dyed (<i>atozome</i>) means dyeing the finished fabric. Yonezawa is especially renowned for its yarn-dyed silk fabrics.</div>
+    </li>
+    <li class="qa-item">
+      <div class="qa-q">What is kusakizome (natural plant dyeing)?</div>
+      <div class="qa-a">A technique that uses plant-based dyes to color yarn or cloth. Bark, branches, roots, flowers, fruits, or leaves are simmered to extract dye liquor, and a <span class="term">mordant</span> (alum, tin, chromium) sets the color. The same plant produces different shades depending on the mordant used. The term "kusakizome" was coined in 1930 to distinguish natural dyeing from synthetic.</div>
+    </li>
+    <li class="qa-item">
+      <div class="qa-q">Jacquard vs. Dobby — what's the difference?</div>
+      <div class="qa-a">Both are loom mechanisms. <b>Jacquard</b> can control each warp thread individually, allowing very intricate patterns. <b>Dobby</b> moves a fixed number of warps together — less flexible for fine patterns but capable of dense, beautifully smooth fabric.</div>
+    </li>
+    <li class="qa-item">
+      <div class="qa-q">What is made from Yonezawa-ori?</div>
+      <div class="qa-a">In Western clothing: high-end fabrics for women's suits, dresses, coats, and formal wear, supplied to designer and luxury brands. In Japanese clothing: kimono fabrics (tsumugi, homongi, tsukesage), obi sashes, men's hakama and underrobes, plus scarves, mufflers, and neckties.</div>
+    </li>
+    <li class="qa-item">
+      <div class="qa-q">What is Yonezawa-ori's claim to fame?</div>
+      <div class="qa-a">Yonezawa accounts for over 90% of Japan's hakama production — the largest share in the country. In women's fabrics, it is often compared to Como, Italy, for its silk weaving expertise.</div>
+    </li>
+  </ul>
+</section>
+
+<section class="chapter">
+  <span class="ch-no">C H A P T E R&nbsp;&nbsp;4</span>
+  <h2>Beni — The Red of Yonezawa</h2>
+  <p class="lead">The <span class="term">safflower</span> (<i>benibana</i>) cultivated in Yonezawa for centuries yields a deep, sun-like red — one of Japan's most distinctive natural dyes. At the height of the Edo period, Yamagata Prefecture supplied much of Japan's safflower, with the petals shipped via the Mogami River to Kyoto and Osaka. In Yonezawa, this safflower red lives on as a signature color of Yonezawa-ori.</p>
+  <a class="video-link" href="https://www3.nhk.or.jp/nhkworld/en/shows/6053013/" target="_blank" rel="noopener">
+    <div class="pre">NHK WORLD-JAPAN ｜ Time-lapse Japan</div>
+    <div class="ttl">YONEZAWA: "Beni," Japanese Red</div>
+    <div class="desc">"Since ancient times, safflowers grown in Yonezawa have been used to dye fabric a deep red color associated with the sun. Experience its mysterious, vivid beauty through time-lapse footage." — Official NHK WORLD English program.</div>
+    <div class="url">https://www3.nhk.or.jp/nhkworld/en/shows/6053013/</div>
+  </a>
+  <div class="note"><span class="label">📖 Did you know?</span>The safflower also goes by the poetic name <i>suetsumuhana</i> ("the late-picked flower"), and appears as a character name in the 11th-century classic <i>The Tale of Genji</i>. Petals were fermented and rolled into <span class="term">beni-mochi</span> cakes, which were shipped across Japan as the dye trade spread.</div>
+</section>
+
+<section class="chapter">
+  <span class="ch-no">C H A P T E R&nbsp;&nbsp;5</span>
+  <h2>Where to Visit, What to Buy</h2>
+
+  <h3>See and Buy Yonezawa-ori</h3>
+  <p><b>"Origin" (Orijin) — Direct Sales Shop</b><br>The flagship outlet of the Yonezawa Textile Council, offering kimono fabrics, Western fabrics, and accessories.</p>
+  <p><b>Yonezawa Textile History Museum</b><br>Holds artifacts ranging from Edo-period ramie cloth to Meiji-Taisho era Jacquard obi sashes.</p>
+
+  <h3>Hands-on Experiences</h3>
+  <p>Several weaving workshops and ateliers offer hands-on weaving and natural dyeing experiences. Contact the Yonezawa Textile Council or Yonezawa Tourism Navi for current schedules.</p>
+
+  <h3>Useful Links</h3>
+  <ul class="bullet">
+    <li><a class="link" href="https://www.yoneori.com/" target="_blank" rel="noopener">Yonezawa Textile Council (official)</a> — the primary source on the industry</li>
+    <li><a class="link" href="https://www.yoneori.com/what/" target="_blank" rel="noopener">"What is Yonezawa-ori"</a> — main reference for this guide</li>
+    <li><a class="link" href="https://www3.nhk.or.jp/nhkworld/en/shows/6053013/" target="_blank" rel="noopener">NHK World – YONEZAWA: "Beni," Japanese Red</a> — visual introduction to safflower dyeing</li>
+    <li><a class="link" href="https://www.yonezawa-kankou-navi.com/souvenir/yoneori.html" target="_blank" rel="noopener">Yonezawa Tourism Navi</a></li>
+  </ul>
+</section>
+
+</div><!-- /tourist en -->
+
+
+<!-- ===== INTERPRETER MODE (EN) ===== -->
+<div class="mode-block" data-mode="interp">
+
+<section class="chapter">
+  <span class="ch-no">INTERPRETER｜PROLOGUE</span>
+  <h2>Yonezawa-ori｜Study Mode</h2>
+  <p class="lead">This Study Mode supplements the tourist guide with <b>terminology charts, historical sourcing, and fact-check notes</b> for guides, interpreters, and tour operators. We distinguish carefully between primary-source facts and "widely told stories" so the guide can stand up to scholarly questioning.</p>
+</section>
+
+<section class="chapter">
+  <span class="ch-no">INTERPRETER｜CH. 1</span>
+  <h2>History — Primary-Source Reading</h2>
+
+  <h3>1600 — The Sekigahara Demotion</h3>
+  <p>After the Battle of Sekigahara in <b>Keichō 5 (1600)</b>, Uesugi Kagekatsu was demoted from the 1.2-million-<i>koku</i> Aizu domain to the 300,000-<i>koku</i> Yonezawa domain. To restore finances, chief retainer <span class="term">Naoe Kanetsugu</span> promoted cash-crop cultivation, including mulberry (silkworm feed), <span class="term-en">ramie</span> (aoso), and <span class="term-en">safflower</span> (benibana).</p>
+  <h4>Terminology: aoso / chōma / karamushi</h4>
+  <ul class="bullet">
+    <li><b>aoso 青苧</b>: a regional name for ramie (chōma 苧麻). <i>Boehmeria nivea</i>, family Urticaceae. The bast fiber for ramie cloth.</li>
+    <li><b>asa 麻</b>: in Japanese, the umbrella term covers hemp (<i>Cannabis sativa</i>), ramie (<i>Boehmeria nivea</i>), and flax (<i>Linum usitatissimum</i>). <b>"Yonezawa asa"</b> historically refers to <b>ramie</b> — translate as "ramie" or "bast fiber," not "hemp."</li>
+  </ul>
+
+  <h3>9th Lord Uesugi Yozan and the Founding</h3>
+  <p>The 9th lord, Uesugi Harunori (pen name <span class="term">Yozan</span>, 1751–1822), launched formal weaving as part of his domain reform — assigning samurai women to home-based weaving and inviting weavers from <span class="term">Ojiya</span> in Niigata to teach the production of <span class="term">chijimifu</span> (crinkle cloth).</p>
+
+  <h3>Meiji-Taisho — Technical Breakthroughs</h3>
+  <p><b>Yonezawa Technical School</b> (founded 1897, today Yamagata Prefectural Yonezawa Technical High School) and <b>Yonezawa Higher Technical School</b> (founded 1910, today Yamagata University Faculty of Engineering) are <b>distinct institutions</b>. The first is secondary; the second was Japan's seventh higher technical school. Avoid conflating them.</p>
+  <ul class="bullet">
+    <li>1905｜<span class="term">Takayanagi Yoshikazu</span>, instructor at Yonezawa Technical School, develops the Takayanagi-style power loom for habutae silk.</li>
+    <li>1917｜<span class="term">Hata Itsuzo</span>, professor at Yonezawa Higher Technical School, achieves Japan's first commercial production of <b>rayon (artificial silk)</b>.</li>
+    <li>The rayon business was later spun off as <span class="term">Teikoku Jinzo Kenshi K.K.</span>, which became today's <span class="term">Teijin Limited</span>. The Yonezawa plant ceased operation in 1931.</li>
+  </ul>
+
+  <div class="factcheck">
+    <span class="label">⚠️ FACT-CHECK NOTES</span>
+    <ul>
+      <li><b>"Largest hakama share" — 90% vs. 95%</b>: The Yonezawa Textile Council's official site says "<b>over 90% of national share</b>" in the History section, but "<b>over 95%</b>" in the Q&amp;A. Use "<b>over 90%</b>" as the safe figure. If quoting "95%," cite the Q&amp;A specifically.</li>
+      <li><b>"Comparable to Como, Italy"</b>: This phrasing comes from the Council itself. There is no published international benchmark dataset. Frame it as "<b>often compared to Como, Italy</b>" — i.e., an industry assessment, not an objectively measured ranking.</li>
+      <li><b>The Kennedy / Yozan story</b>: As with the Uesugi Shrine guide, the claim that JFK named Lord Yozan as "the Japanese leader he most respects" is a <b>widely repeated Japanese legend without confirmed primary-source documentation</b>. Treat with the same caution.</li>
+      <li><b>Safflower geography</b>: Don't simplify "safflower = Yonezawa." During the Edo period, "Mogami benibana" was produced across the Mogami River basin in Yamagata Prefecture, with the <b>Murayama region</b> (north of Yonezawa) as the main bulk producer. Kyoto held the dyeing expertise. Phrase Yonezawa as a producer and a center of <b>safflower-dyed weaving</b> — not the source of the safflower trade.</li>
+    </ul>
+  </div>
+</section>
+
+<section class="chapter">
+  <span class="ch-no">INTERPRETER｜CH. 2</span>
+  <h2>Term-by-Term Translation Reference</h2>
+
+  <h3>Materials</h3>
+  <ul class="bullet">
+    <li>桑 (kuwa) → <span class="term-en">mulberry</span></li>
+    <li>青苧 / 苧麻 / からむし → <span class="term-en">ramie</span> (<i>Boehmeria nivea</i>)</li>
+    <li>紅花 (benibana) → <span class="term-en">safflower</span> (<i>Carthamus tinctorius</i>)</li>
+    <li>紅餅 (beni-mochi) → <span class="term-en">beni-mochi</span> — fermented safflower petal cakes</li>
+    <li>絹 (kinu) → silk; 繭 (mayu) → cocoon; 養蚕 (yōsan) → sericulture</li>
+    <li>人絹 / 人造絹糸 (jinken) → rayon / viscose rayon (literally "artificial silk")</li>
+    <li>合化繊 (gōkasen) → synthetic fibers</li>
+  </ul>
+
+  <h3>Weave Types</h3>
+  <ul class="bullet">
+    <li>平織 → <span class="term-en">plain weave / tabby</span></li>
+    <li>綾織 → <span class="term-en">twill weave</span></li>
+    <li>繻子織 → <span class="term-en">satin weave</span></li>
+    <li>ジャカード織 → <span class="term-en">Jacquard weave</span> (named for Joseph Marie Jacquard)</li>
+    <li>ドビー織 → <span class="term-en">Dobby weave</span></li>
+    <li>先染 → <span class="term-en">yarn-dyed</span>; 後染 → <span class="term-en">piece-dyed / fabric-dyed</span></li>
+    <li>草木染 → <span class="term-en">natural plant dyeing</span> ("kusakizome," term coined in 1930)</li>
+    <li>媒染 → <span class="term-en">mordanting</span> — alum, tin, chromium etc.</li>
+    <li>意匠図 → design draft; 組織図 → weave-structure diagram; 紋紙 → punch card / Jacquard card</li>
+    <li>整経 → <span class="term-en">warping</span>; 撚糸 → <span class="term-en">yarn twisting</span></li>
+    <li>強撚糸 → <span class="term-en">high-twist yarn</span>; しぼ → <span class="term-en">crepe texture</span></li>
+  </ul>
+
+  <h3>Garment Types</h3>
+  <ul class="bullet">
+    <li>袴 → <span class="term-en">hakama</span> (traditional pleated trousers)</li>
+    <li>紬 → <span class="term-en">tsumugi</span> (pongee silk)</li>
+    <li>訪問着 → <span class="term-en">homongi</span> (formal kimono)</li>
+    <li>つけ下げ → <span class="term-en">tsukesage</span> (semi-formal kimono)</li>
+    <li>長襦袢 → <span class="term-en">nagajuban</span> (kimono undergarment)</li>
+    <li>帯 → <span class="term-en">obi</span> (kimono sash)</li>
+  </ul>
+</section>
+
+<section class="chapter">
+  <span class="ch-no">INTERPRETER｜CH. 3</span>
+  <h2>Using the NHK World Safflower Program</h2>
+  <a class="video-link" href="https://www3.nhk.or.jp/nhkworld/en/shows/6053013/" target="_blank" rel="noopener">
+    <div class="pre">NHK WORLD-JAPAN ｜ Time-lapse Japan</div>
+    <div class="ttl">YONEZAWA: "Beni," Japanese Red</div>
+    <div class="desc">Official: "Since ancient times, safflowers grown in Yonezawa have been used to dye fabric a deep red color associated with the sun. Experience its mysterious, vivid beauty through time-lapse footage." Short, visually striking, English-captioned — ideal for a 5-minute opener with overseas guests.</div>
+    <div class="url">https://www3.nhk.or.jp/nhkworld/en/shows/6053013/</div>
+  </a>
+  <div class="note"><span class="label">💡 GUIDING TIP</span>The time-lapse compresses the dyeing process into a few minutes — perfect as an icebreaker before walking guests through the actual weaving and dyeing studios. Show it first; the chemistry of the dye and the patience of the craft becomes intuitively clear.</div>
+  <div class="factcheck">
+    <span class="label">⚠️ FACT-CHECK NOTES</span>
+    <ul>
+      <li>The NHK phrasing "safflowers grown in Yonezawa" can leave the impression that Yonezawa was the safflower bulk producer. As noted in Chapter 1, the Mogami River basin (Yamagata Prefecture) overall — and the Murayama region in particular — was the bulk producer. Reframe Yonezawa as the locus of safflower-dyed weaving rather than the bulk source.</li>
+      <li>"Japanese Red" is a marketing phrase, not a registered traditional color. Traditional Japanese color names corresponding to safflower red include <i>karakurenai</i> (韓紅花), <i>kōbai-iro</i> (紅梅色), and <i>shinku</i> (真紅).</li>
+    </ul>
+  </div>
+</section>
+
+<section class="chapter">
+  <span class="ch-no">INTERPRETER｜CH. 4</span>
+  <h2>Trademark and Production-Region Attribution</h2>
+  <p>"Yonezawa-ori" is registered as a <b>Regionally Based Collective Trademark</b> (held by the Yonezawa Textile Industrial Cooperative). Translate as <span class="term-en">Yonezawa-ori</span> (registered as a Regionally Based Collective Trademark).</p>
+  <p>Note: <b>Yonezawa-ori</b> and <b>Oitama-tsumugi</b> (置賜紬) — a designated traditional craft under METI — are <b>not synonymous</b>. Oitama-tsumugi covers tsumugi pongee silk woven in the three Oitama-region municipalities of Yonezawa, Nagai, and Shirataka. Yonezawa-ori is broader, including Western fabrics and hakama cloth.</p>
+</section>
+
+</div><!-- /interp en -->
+
+</div><!-- /lang en -->
+
+
+<!-- ====================================================== -->
+<!-- ============ TRADITIONAL CHINESE / 繁體中文 =========== -->
+<!-- ====================================================== -->
+<div class="lang-block" data-lang="tw">
+
+<!-- ===== TOURIST MODE (TW) ===== -->
+<div class="mode-block show" data-mode="tourist">
+
+<section class="chapter">
+  <span class="ch-no">序　章</span>
+  <h2>200年以上の織之町</h2>
+  <p class="lead">山形縣南部・米澤，這座冬季大雪封閉、夏季悶熱的城下町，承載著超過200年的織物傳統。米澤藩第9代藩主<span class="term">上杉鷹山</span>公為了拯救財政困窘的藩，興起了絹織物產業；如今米澤的<i>袴</i>（傳統褲裙）佔日本全國9成以上的市場份額，同時為世界知名高級品牌供應布料，被稱為「雖小猶光的產地」。</p>
+  <div class="toc">
+    <h3>目　錄</h3>
+    <ol>
+      <li>第一章｜米澤織的歷史</li>
+      <li>第二章｜米澤織的製作方法</li>
+      <li>第三章｜米澤織問答</li>
+      <li>第四章｜紅花染與米澤之紅</li>
+      <li>第五章｜參觀・購買・相關連結</li>
+    </ol>
+  </div>
+</section>
+
+<section class="chapter">
+  <span class="ch-no">第　一　章</span>
+  <h2>米澤織的歷史</h2>
+
+  <h3>從麻織物到絹織物 ── 直江兼續與鷹山公</h3>
+  <p>慶長5年（西元1600年）關原之戰後，於豐臣方陣營的上杉軍由會津120萬石被沒收、移封至米澤30萬石。藩主<span class="term">上杉景勝</span>公的家臣<span class="term">直江兼續</span>為了重建縮減為四分之一的藩財政，獎勵桑、<span class="term">青苧</span>（亦稱「からむし／苧麻」，麻織物原料）、<span class="term">紅花</span>等經濟作物的栽培。</p>
+  <p>約200年後，第9代藩主<span class="term">上杉鷹山</span>（治憲）公正式開創米澤織。他讓武士的妻女學習機織當作副業，並從新潟縣小千谷招聘技術人員，成功生產<span class="term">縮布</span>（ちぢみふ）。隨後，米澤織從以青苧為主的麻織物，轉型為以置賜地方養蠶業為基礎的絹織物，「出羽米澤織」之名揚名全國。</p>
+
+  <h3>明治・大正期的發展 ── 兩所工業學校</h3>
+  <p>米澤織能在技術上飛躍式進步，與明治・大正期創立的兩所學校關係密切。</p>
+  <h4>米澤工業學校（現・山形縣立米澤工業高等學校）</h4>
+  <p>明治27年實業教育費國庫補助法公布後，由組合與市民捐款於明治30年（1897）4月開校。明治38年（1905），同校教諭<span class="term">高柳芳一</span>參考進口力織機，開發出羽二重專用的<span class="term">高柳式力織機</span>。</p>
+  <h4>米澤高等工業學校（現・山形大學工學部）</h4>
+  <p>明治43年（1910）開設，為日本第7所高等工業學校。同校教授<span class="term">秦逸三</span>於大正6年（1917）成功生產日本首批<span class="term">人造絹糸</span>（人絹／rayon）。此事業後分離獨立為<span class="term">帝國人造絹糸株式會社</span>（現・帝人株式會社），米澤遂成為日本人絹發祥地。</p>
+
+  <h3>戰後至今 ── 紡織業綜合產地</h3>
+  <p>戰後西式服裝普及，昭和30年（1955）左右起，使用化學纖維的先染女裝布料成為主流，米澤遂成為和裝（呉服）與洋裝兩面評價甚高的產地。和裝部份，<span class="term">袴地</span>佔全國9成以上市場份額；洋裝部份的絹織物技術，常被譽為與義大利科莫（Como）並駕齊驅。從原糸商、染色、撚絲、設計、織造、整理、縫製到針織，米澤是日本罕見的「<span class="term">紡織業綜合產地</span>」，產業鏈高度集中。</p>
+
+  <div class="tenchijin">
+    <div class="card"><div class="kan">天</div><div class="ttl">天時</div><div class="desc">大雪寒冷的氣候迫使人們從事室內勞作。</div></div>
+    <div class="card"><div class="kan">地</div><div class="ttl">地利</div><div class="desc">青苧、紅花、養蠶等原料豐富。</div></div>
+    <div class="card"><div class="kan">人</div><div class="ttl">人和</div><div class="desc">自鷹山公以降，挑戰與堅韌的氣質代代相傳。</div></div>
+  </div>
+</section>
+
+<section class="chapter">
+  <span class="ch-no">第　二　章</span>
+  <h2>米澤織的製作方法</h2>
+
+  <h3>原料 ── 絹・青苧・紅花</h3>
+  <p>江戶時代初期，桑、青苧、紅花就已被廣泛栽培。經直江兼續獎勵後，這些作物成為米澤藩的特產，青苧甚至外銷越後（新潟）作為越後縮的原料。隨著桑與養蠶業發展，織物從麻 → 麻絹混織 → 絹織物逐步轉變。大正時代秦逸三成功量產人絹後，戰後又因西式服裝普及，米澤目前運用從絹到合成纖維的多元素材。</p>
+  <p>染料起初以紅花等植物染料為主的<span class="term">草木染</span>為中心，明治時期化學染料普及；但傳統草木染技術仍在米澤代代傳承至今。</p>
+
+  <h3>米澤織的6大工序</h3>
+  <div class="flow">
+    <div class="flow-step"><span class="num">1</span>企劃</div>
+    <div class="flow-step"><span class="num">2</span>設計</div>
+    <div class="flow-step"><span class="num">3</span>染色・準備</div>
+    <div class="flow-step"><span class="num">4</span>織造</div>
+    <div class="flow-step"><span class="num">5</span>整理・檢查</div>
+    <div class="flow-step"><span class="num">6</span>縫製</div>
+  </div>
+  <p><b>1. 企劃</b>：掌握流行趨勢、提出新布料方案。<br>
+  <b>2. 設計</b>：繪製花紋圖樣（意匠圖），轉化為織造組織圖；如為提花織，需製作<span class="term">紋紙</span>（Jacquard打孔卡）。<br>
+  <b>3. 染色・準備</b>：在絲線階段加撚，先染者於此時染色。將經絲整理至所需長度與根數（整經）後上機。<br>
+  <b>4. 織造</b>：擅長複雜花紋的<span class="term">提花織（Jacquard）</span>與緻密滑順的<span class="term">多臂織（Dobby）</span>是米澤織的兩大支柱。現多採電腦控制高速織造。<br>
+  <b>5. 整理・檢查</b>：調整布幅、撫平皺紋、賦予光澤。後染者於此階段染色。<br>
+  <b>6. 縫製</b>：將布料製成和服或洋服。</p>
+
+  <h3>三大基本織紋 ── 平織・斜紋・緞紋</h3>
+  <div class="weave-table">
+    <div class="cell"><h5>平織</h5>最簡單的織法，堅固有彈性、易於使用。</div>
+    <div class="cell"><h5>斜紋（綾織）</h5>具伸縮性、不易起皺，常用於牛仔布與西裝。</div>
+    <div class="cell"><h5>緞紋（繻子織）</h5>表面平滑、柔軟富光澤。</div>
+  </div>
+</section>
+
+<section class="chapter">
+  <span class="ch-no">第　三　章</span>
+  <h2>米澤織問答</h2>
+  <ul class="qa">
+    <li class="qa-item">
+      <div class="qa-q">米澤織的起源？</div>
+      <div class="qa-a">米澤藩第9代藩主上杉鷹山公為重建藩財政，讓武士的婦女子學習織物為起源。從新潟縣小千谷招聘技術人員，於寺町倉庫敷地內設置「縮役場」進行指導。後來隨養蠶業發展，轉型為絹織物。</div>
+    </li>
+    <li class="qa-item">
+      <div class="qa-q">什麼是織物？</div>
+      <div class="qa-a">將經絲（縱絲）與緯絲（橫絲）以特定順序成直角組合而成的布。基本為「平織・斜紋・緞紋」三大織紋。</div>
+    </li>
+    <li class="qa-item">
+      <div class="qa-q">為什麼要將絲加撚？</div>
+      <div class="qa-a">一是增加絲線強度便於織造；二是賦予布面獨特觸感（しぼ＝強撚絲織造後布面細微皺紋）。</div>
+    </li>
+    <li class="qa-item">
+      <div class="qa-q">先染與後染有何不同？</div>
+      <div class="qa-a">織造前在絲線階段染色稱「先染」，織成布料後再染色稱「後染」。米澤織以先染絹織物的高品質聞名。</div>
+    </li>
+    <li class="qa-item">
+      <div class="qa-q">什麼是草木染？</div>
+      <div class="qa-a">使用植物染料染絲線或布料。樹皮・幹・根・花・果實・葉煮出染液，再以媒染（鋁・錫・鉻等觸媒）發色。同樣材料因媒染劑不同會呈現不同顏色。「草木染」一詞於昭和5年（1930年）為區別合成染料而命名。</div>
+    </li>
+    <li class="qa-item">
+      <div class="qa-q">提花織（Jacquard）與多臂織（Dobby）的差別？</div>
+      <div class="qa-a">兩者皆為織機花紋裝置。<b>提花織</b>能單獨控制每根經絲，可表現複雜細緻的花紋；<b>多臂織</b>則一次控制一定數量的經絲，雖不擅細密花紋，卻能織出緻密滑順的布料。</div>
+    </li>
+    <li class="qa-item">
+      <div class="qa-q">米澤織主要生產什麼？</div>
+      <div class="qa-a">洋裝：女性西裝、洋裝、外套、正式禮服等高級布料，供應設計師品牌與名牌。和裝：紬・訪問着・つけ下げ等和服布料、帶、男士袴・長襦袢、披肩・絲巾・領帶等。</div>
+    </li>
+    <li class="qa-item">
+      <div class="qa-q">米澤織的「日本第一」？</div>
+      <div class="qa-a">袴地佔日本全國9成以上市場份額，是日本第一。女裝布料領域，常被譽為與義大利科莫並駕齊驅。</div>
+    </li>
+  </ul>
+</section>
+
+<section class="chapter">
+  <span class="ch-no">第　四　章</span>
+  <h2>紅花染與米澤之紅 ── Beni, Japanese Red</h2>
+  <p class="lead">自古於米澤栽培的<span class="term">紅花</span>，能將布料染成象徵太陽的深紅色，是日本獨特的天然染料。江戶時代山形縣承擔了日本紅花的大宗產量，紅花透過最上川舟運運往京都・大阪。在米澤，紅花染至今仍是米澤織的代表性意匠之一。</p>
+  <a class="video-link" href="https://www3.nhk.or.jp/nhkworld/en/shows/6053013/" target="_blank" rel="noopener">
+    <div class="pre">NHK WORLD-JAPAN ｜ Time-lapse Japan</div>
+    <div class="ttl">YONEZAWA: "Beni," Japanese Red</div>
+    <div class="desc">古來於米澤栽培的紅花，將象徵太陽的深紅色染入布中。透過縮時影像體驗其神秘、鮮豔之美的NHK WORLD官方英語節目。</div>
+    <div class="url">https://www3.nhk.or.jp/nhkworld/en/shows/6053013/</div>
+  </a>
+  <div class="note"><span class="label">📖 小知識</span>紅花別名「末摘花（すえつむはな）」，亦為《源氏物語》中的人物名稱。將摘下的花瓣發酵後揉成的<span class="term">紅餅</span>（べにもち），曾作為染料原料行銷全國。</div>
+</section>
+
+<section class="chapter">
+  <span class="ch-no">第　五　章</span>
+  <h2>參觀・購買・相關連結</h2>
+
+  <h3>觀賞與購買米澤織</h3>
+  <p><b>織元直營商店「おりじん」</b><br>米澤纖維協議會經營的直銷店，從和裝、洋裝布料到小物配件一應俱全。</p>
+  <p><b>米澤織物歷史資料館</b><br>展示江戶時代麻織物至明治・大正期提花六寸帶等歷史性藏品。</p>
+
+  <h3>米澤織體驗</h3>
+  <p>部分織元・工坊提供機織與染色體驗，最新資訊請洽詢米澤纖維協議會或米澤觀光NAVI。</p>
+
+  <h3>相關連結</h3>
+  <ul class="bullet">
+    <li><a class="link" href="https://www.yoneori.com/" target="_blank" rel="noopener">米澤纖維協議會官方網站</a> ── 米澤織的核心資訊</li>
+    <li><a class="link" href="https://www.yoneori.com/what/" target="_blank" rel="noopener">「米澤織とは」</a> ── 本指南主要參考來源</li>
+    <li><a class="link" href="https://www3.nhk.or.jp/nhkworld/en/shows/6053013/" target="_blank" rel="noopener">NHK World – YONEZAWA: "Beni," Japanese Red</a> ── 紅花染影像介紹</li>
+    <li><a class="link" href="https://www.yonezawa-kankou-navi.com/souvenir/yoneori.html" target="_blank" rel="noopener">米澤觀光NAVI（米澤織）</a></li>
+  </ul>
+</section>
+
+</div><!-- /tourist tw -->
+
+
+<!-- ===== INTERPRETER MODE (TW) ===== -->
+<div class="mode-block" data-mode="interp">
+
+<section class="chapter">
+  <span class="ch-no">通譯者用｜序章</span>
+  <h2>米澤織｜Study Mode</h2>
+  <p class="lead">本Study Mode為觀光導遊・通譯導遊・旅行業者解說人員提供米澤織多語解說所需的<b>術語整理・歷史溯源・文化背景・事實查核註記</b>，明確區分「一手史料事實」與「廣為流傳的傳說」，讓解說經得起學術質詢。</p>
+</section>
+
+<section class="chapter">
+  <span class="ch-no">通譯者用｜第一章</span>
+  <h2>歷史 ── 一手史料準據解讀</h2>
+
+  <h3>慶長5年的移封 ── 上杉景勝・直江兼續體制</h3>
+  <p><span class="term">慶長5年</span>（けいちょう5年／1600年）<span class="term">關原之戰</span>後，上杉景勝由會津<b>120萬石</b>大幅減封並移封至米澤<b>30萬石</b>。家老<span class="term">直江兼續</span>主導殖產政策，獎勵桑・<span class="term-en">aoso</span>（青苧）・<span class="term-en">benibana</span>（紅花）等經濟作物。</p>
+  <h4>術語整理：青苧／苧麻／からむし</h4>
+  <ul class="bullet">
+    <li><b>青苧（あおそ／aoso）</b>：蕁麻科多年草「苧麻（ちょま，Ramie）」之別稱。米澤亦稱「<b>からむし（karamushi）</b>」。學名 <i>Boehmeria nivea</i>，麻織物（嚴格來說即ramie cloth）的原料。</li>
+    <li><b>麻（あさ／asa）</b>：日語中為大麻（hemp, <i>Cannabis sativa</i>）・苧麻（ramie）・亞麻（linen, <i>Linum usitatissimum</i>）等的總稱。「米澤的麻」基本上指<b>ramie</b>，英譯不應作hemp，而應作<b>ramie</b>或<b>bast fiber</b>。</li>
+  </ul>
+
+  <h3>第9代藩主上杉鷹山與織物業創立</h3>
+  <p>第9代米澤藩主<span class="term">上杉治憲</span>（うえすぎ・はるのり，號<span class="term">鷹山（ようざん）</span>，1751–1822），於藩財政重建中，命藩士婦女子修習機織內職，是為米澤織業正式創立的起源。從新潟縣<span class="term">小千谷</span>（おぢや）招聘技師，成功生產<span class="term">縮布（ちぢみふ）</span>。</p>
+
+  <h3>明治・大正期的技術發展</h3>
+  <p><b>米澤工業學校</b>（明治30年開校／現・山形縣立米澤工業高等學校）與<b>米澤高等工業學校</b>（明治43年開校／現・山形大學工學部）為<b>不同機構</b>。前者為中等教育，後者為日本第7所高等專門教育機構，注意勿混淆。</p>
+  <ul class="bullet">
+    <li>明治38年｜<span class="term">高柳芳一</span>（米澤工業學校教諭）開發高柳式力織機（羽二重用）</li>
+    <li>大正6年（1917）｜<span class="term">秦逸三</span>（米澤高等工業學校教授）成功生產日本首批<b>人造絹糸（人絹／rayon）</b></li>
+    <li>後分離獨立為<span class="term">帝國人造絹糸株式會社</span>（現・<span class="term">帝人株式會社</span>）。米澤工廠於昭和6年（1931）停止營運</li>
+  </ul>
+
+  <div class="factcheck">
+    <span class="label">⚠️ 事實查核注意點</span>
+    <ul>
+      <li><b>「日本第一袴市佔」表記不一致</b>：米澤纖維協議會官網於上方說明「<b>絹質袴地佔全國9成以上市佔</b>」，問答欄中為「<b>9成5以上</b>」，<b>9成與9成5並存</b>。安全用法為「<b>9成以上（over 90%）</b>」。引用「9成5」時請限定為問答欄出處。</li>
+      <li><b>「比擬世界Como」之比較表現</b>：來自米澤纖維協議會官方說明，但無公開的定量國際比較數據。觀光介紹時應以「<b>常被譽為與義大利科莫並駕齊驅</b>」表達為業界內評價。</li>
+      <li><b>鷹山公相關傳說</b>：與上杉神社指南相同，「甘迺迪總統視鷹山公為最尊敬的日本人」之軼事為<b>未經一手史料佐證的日本國內傳說</b>，請以同等審慎處理。</li>
+      <li><b>紅花染中心地</b>：勿單純化為「紅花＝米澤」。江戶期之<b>最上紅花</b>（もがみべにばな）產地遍及山形縣最上川流域全域，特別以<b>村山地方</b>為大宗產地，染色技術中心則在京都。米澤的定位是「紅花染傳統技術以米澤織形式存續」，與「米澤是紅花主產地」應分開表述。</li>
+    </ul>
+  </div>
+</section>
+
+<section class="chapter">
+  <span class="ch-no">通譯者用｜第二章</span>
+  <h2>原料・工序・術語英譯範本</h2>
+
+  <h3>原料</h3>
+  <ul class="bullet">
+    <li>桑（くわ）→ <span class="term-en">mulberry</span></li>
+    <li>青苧／苧麻／からむし → <span class="term-en">ramie</span>（<i>Boehmeria nivea</i>）</li>
+    <li>紅花（べにばな）→ <span class="term-en">safflower</span>（<i>Carthamus tinctorius</i>）</li>
+    <li>紅餅（べにもち）→ <span class="term-en">beni-mochi</span>（fermented safflower petal cakes）</li>
+    <li>絹（きぬ）→ silk；繭 → cocoon；養蠶 → sericulture</li>
+    <li>人絹／人造絹糸 → <span class="term-en">rayon</span>（artificial silk, viscose rayon）</li>
+    <li>合化纖 → <span class="term-en">synthetic fibers</span></li>
+  </ul>
+
+  <h3>織紋種類</h3>
+  <ul class="bullet">
+    <li>平織 → <span class="term-en">plain weave / tabby weave</span></li>
+    <li>綾織 → <span class="term-en">twill weave</span></li>
+    <li>繻子織 → <span class="term-en">satin weave</span></li>
+    <li>提花織（ジャカード織）→ <span class="term-en">Jacquard weave</span></li>
+    <li>多臂織（ドビー織）→ <span class="term-en">Dobby weave</span></li>
+    <li>先染 → <span class="term-en">yarn-dyed</span>；後染 → <span class="term-en">piece-dyed</span></li>
+    <li>草木染 → <span class="term-en">natural plant dyeing</span>（"kusakizome"，1930年命名）</li>
+    <li>媒染 → <span class="term-en">mordanting</span>（鋁、錫、鉻等）</li>
+    <li>意匠圖 → design draft；組織圖 → weave-structure diagram；紋紙 → punch card / Jacquard card</li>
+    <li>整經 → <span class="term-en">warping</span>；撚絲 → <span class="term-en">yarn twisting</span></li>
+    <li>強撚絲 → <span class="term-en">high-twist yarn</span>；しぼ → <span class="term-en">crepe texture</span></li>
+  </ul>
+
+  <h3>製品種類</h3>
+  <ul class="bullet">
+    <li>袴 → <span class="term-en">hakama</span>（傳統褶褲）</li>
+    <li>紬 → <span class="term-en">tsumugi</span>（pongee silk）</li>
+    <li>訪問着 → <span class="term-en">homongi</span>（正式和服）</li>
+    <li>つけ下げ → <span class="term-en">tsukesage</span>（半正式和服）</li>
+    <li>長襦袢 → <span class="term-en">nagajuban</span>（和服內衣）</li>
+    <li>帶 → <span class="term-en">obi</span>（和服腰帶）</li>
+  </ul>
+</section>
+
+<section class="chapter">
+  <span class="ch-no">通譯者用｜第三章</span>
+  <h2>NHK World紅花節目活用</h2>
+  <a class="video-link" href="https://www3.nhk.or.jp/nhkworld/en/shows/6053013/" target="_blank" rel="noopener">
+    <div class="pre">NHK WORLD-JAPAN ｜ Time-lapse Japan</div>
+    <div class="ttl">YONEZAWA: "Beni," Japanese Red</div>
+    <div class="desc">官方說明：「Since ancient times, safflowers grown in Yonezawa have been used to dye fabric a deep red color associated with the sun.」短篇縮時影像、英語字幕，是為海外旅客導入米澤織解說的5分鐘最佳開場。</div>
+    <div class="url">https://www3.nhk.or.jp/nhkworld/en/shows/6053013/</div>
+  </a>
+  <div class="note"><span class="label">💡 解說建議</span>NHK該節目以縮時技法將染色工程濃縮，先請賓客觀賞此影片，後續染色與織造工序的解說可大幅順暢。</div>
+  <div class="factcheck">
+    <span class="label">⚠️ 事實查核注意點</span>
+    <ul>
+      <li>NHK節目中「safflowers grown in Yonezawa」的措詞，會留下米澤為紅花主產地之印象。實際上產地為山形縣全境（特別是村山地方）。介紹時請與第一章查核註記保持一致，強調「紅花染傳統技術透過米澤織得以傳承」此一面向。</li>
+      <li>「Japanese Red」並非固有名詞，僅為節目標題的廣告用詞。日本傳統色名中，與紅花染相符者有<b>韓紅花（からくれない）</b>、<b>紅梅色</b>、<b>真紅</b>等。</li>
+    </ul>
+  </div>
+</section>
+
+<section class="chapter">
+  <span class="ch-no">通譯者用｜第四章</span>
+  <h2>地域團體商標與產地表記</h2>
+  <p>「米澤織」已登錄為<b>地域團體商標</b>（權利人：米澤織物工業組合）。海外導覽時宜表記為 <span class="term-en">Yonezawa-ori</span>（registered as a Regionally Based Collective Trademark）較為精確。</p>
+  <p>另外，<b>米澤織</b>與經濟產業大臣指定傳統工藝品<b>置賜紬（おいたまつむぎ）</b>並非同義詞。置賜紬係米澤・長井・白鷹3市町生產的紬之總稱；米澤織涵蓋更廣，包含洋裝服地、袴地等。</p>
+</section>
+
+</div><!-- /interp tw -->
+
+</div><!-- /lang tw -->
+
+
+<!-- ====================================================== -->
+<!-- ============ FOOTER =================================== -->
+<!-- ====================================================== -->
+<div class="foot">
+  <div>羽前米沢 米沢織 多言語ガイド｜Yonezawa-ori Multilingual Guide</div>
+  <div class="src">
+    主な参考｜Sources：
+    <a href="https://www.yoneori.com/what/" target="_blank" rel="noopener">米沢繊維協議会「米沢織物とは」</a> ／
+    <a href="https://www3.nhk.or.jp/nhkworld/en/shows/6053013/" target="_blank" rel="noopener">NHK World "YONEZAWA: Beni, Japanese Red"</a> ／
+    <a href="https://www.tohoku.meti.go.jp/chizai-enet/support/brand/yonezawaori.html" target="_blank" rel="noopener">経産省東北「米沢織」地域団体商標</a>
+  </div>
+  <div class="src" style="margin-top:8px">
+    Compiled May 2026 ｜ for tour-guide / interpreter use ｜ © content credits to original sources cited above
+  </div>
+</div>
+
+</div><!-- /wrap -->
+
+<script>
+(function(){
+  var langTabs=document.querySelectorAll('.tab.lang');
+  var modeTabs=document.querySelectorAll('.tab.mode');
+  var langBlocks=document.querySelectorAll('.lang-block');
+  function setLang(l){
+    langTabs.forEach(function(t){t.classList.toggle('active',t.dataset.lang===l)});
+    langBlocks.forEach(function(b){b.classList.toggle('show',b.dataset.lang===l)});
+    try{localStorage.setItem('yo_lang',l)}catch(e){}
+  }
+  function setMode(m){
+    modeTabs.forEach(function(t){t.classList.toggle('active',t.dataset.mode===m)});
+    document.querySelectorAll('.mode-block').forEach(function(b){
+      b.classList.toggle('show',b.dataset.mode===m);
+    });
+    try{localStorage.setItem('yo_mode',m)}catch(e){}
+  }
+  langTabs.forEach(function(t){t.addEventListener('click',function(){setLang(t.dataset.lang)})});
+  modeTabs.forEach(function(t){t.addEventListener('click',function(){setMode(t.dataset.mode)})});
+  // restore preferences
+  try{
+    var l=localStorage.getItem('yo_lang'); if(l) setLang(l);
+    var m=localStorage.getItem('yo_mode'); if(m) setMode(m);
+  }catch(e){}
+})();
+</script>
+</body>
+</html>
